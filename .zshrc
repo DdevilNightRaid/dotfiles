@@ -89,3 +89,8 @@ eval "$(fzf --zsh)"
 
 # zoxide intigration
 eval "$(zoxide init  --cmd cd zsh)"
+
+typeset -g POWERLEVEL9K_INSTANT_PROMPT=quiet
+
+export PATH="$PATH:/home/devil/.local/bin"
+~/fm6000
