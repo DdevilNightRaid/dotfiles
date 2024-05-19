@@ -81,6 +81,8 @@ zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'ls --color $realpath'
 
 # Aliases
 alias ls="ls --color"
+alias pbcopy="xsel --input --clipboard"
+alias pbpaste='xsel --output --clipboard'
 
 # Shell intigrations
 
